@@ -4,6 +4,7 @@ html, body {
     padding: 0; /* Remove padding padrão */
     background-color: #1d1d1d; /* Cor de fundo da página */
     box-sizing: border-box; /* Garante que padding e borda sejam incluídos no total da largura e altura */
+    overflow-x: hidden; /* Evita o scroll horizontal */
 }
 
 .main-content {
@@ -17,11 +18,14 @@ html, body {
     flex-direction: column;
     justify-content: center; /* Centraliza o conteúdo verticalmente */
     box-sizing: border-box; /* Garante que padding não afete a altura total */
+    padding-top: 150px; /* Espaço adicional para que o título não seja sobreposto pelo header */
+    margin-bottom: 0; /* Remove margens no final */
 }
 
 .intro-section h1 {
-    font-size: 2.5rem;
+    font-size: 3rem; /* Aumenta o tamanho do título para melhor visibilidade */
     margin: 20px 0;
+    color: #fff; /* Cor branca para o título */
 }
 
 .description {

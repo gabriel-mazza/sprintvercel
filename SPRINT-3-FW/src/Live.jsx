@@ -6,10 +6,7 @@ const Live = () => {
   return (
     <main className="main-content">
       <section className="intro-section">
-        <h1>Formula-E</h1>
-        <p className="description">
-          A Fórmula E é uma categoria de automobilismo muito especial, pois reúne a emoção das corridas com a tecnologia do futuro.
-        </p>
+        <h1>Grand Pix de Tokyo</h1>
       </section>
 
       <div className="content-layout">
