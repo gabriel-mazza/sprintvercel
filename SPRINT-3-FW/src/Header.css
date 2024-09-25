@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #101010;
+    width: 100%;
+    height: 100px; /* Altura fixa do header */
+    position: fixed; /* Para manter o header no topo */
+    top: 0; /* Para alinhar ao topo da página */
+    left: 0; /* Para alinhar à esquerda */
+    z-index: 1000; /* Para garantir que o header fique acima do conteúdo */
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 60px; /* Move o logo para baixo */
+}
+
+.navbar {
+    display: flex; /* Adicionado para garantir que a navbar use flex */
+    align-items: center; /* Centraliza verticalmente os itens da navbar */
+}
+
+.navbar a {
+    color: white;
+    margin-right: 70px;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.subscribe-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: 1px solid #fff;
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-right: 100px; /* Move o botão "Inscrever-se" para a esquerda */
+}
+
+/* Para evitar que o conteúdo da página fique escondido atrás do header fixo */
+.main-content {
+    padding-top: 120px; /* Um espaço para o header fixo */
+}
+
+.Logo { /* Ajustes para a classe da imagem do logo */
+    max-height: 150px; /* Define uma altura máxima para o logo */
+    max-width: 150%; /* Garante que a largura não ultrapasse o header */
+    height: auto; /* Mantém a proporção original da imagem */
+    object-fit: contain; /* Faz com que a imagem se ajuste corretamente ao espaço */
+    margin-left: 120px;
+}

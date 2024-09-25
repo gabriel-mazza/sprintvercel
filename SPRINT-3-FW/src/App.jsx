@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
-import Login from './Login'; // Importando o componente Login
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Login from './Login';
+import Header from './Header';
+import Live from './Live';  // A página principal será Live
+import './App.css'; // Importando o CSS
 
 const App = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -11,13 +15,21 @@ const App = () => {
   };
 
   return (
-    <div>
-      {isAuthenticated ? (
-        <h1>Bem-vindo ao aplicativo!</h1>
-      ) : (
-        <Login onLogin={handleLogin} />
-      )}
-    </div>
+    <Router>
+      <div className="app-container">
+        {isAuthenticated ? (
+          <>
+            <Header />  {/* Exibe o Header após o login */}
+            <Routes>
+              {/* A rota principal será Live */}
+              <Route path="/" element={<Live />} />
+            </Routes>
+          </>
+        ) : (
+          <Login onLogin={handleLogin} />
+        )}
+      </div>
+    </Router>
   );
 };
 
