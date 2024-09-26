@@ -1,0 +1,72 @@
+.pagina-corridas {
+    padding: 120px 20px; /* Para evitar que o conteúdo fique escondido atrás do header */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.corrida-box {
+    width: 80%;
+    background-color: #E0E0E0;
+    border-radius: 15px;
+    margin: 20px 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.corrida-box:hover {
+    background-color: #D0D0D0;
+}
+
+.link-corrida {
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
+}
+
+.miniatura img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.informacoes-corrida h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.informacoes-corrida p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.navegacao-pagina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.navegacao-pagina button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.paginacao-info {
+    font-size: 1rem;
+    color: #777;
+}
