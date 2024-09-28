@@ -8,7 +8,7 @@ const PaginaCorridas = ({ corridas, onProximaPagina }) => {
                 <div key={index} className="corrida-box">
                     <a href={corrida.link} className="link-corrida">
                         <div className="miniatura">
-                            <img src={corrida.imagem} alt={`Miniatura ${corrida.nome}`} /> {/* Corrigido aqui */}
+                            <img src={corrida.imagem} alt={`Miniatura ${corrida.nome}`} />
                         </div>
                         <div className="informacoes-corrida">
                             <h2>{corrida.nome}</h2>
