@@ -4,8 +4,8 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 100%; /* Garante que a altura ocupe 100% */
-    overflow-y: auto; /* Permite rolar se o conteúdo exceder a altura da tela */
+    height: 100%; 
+    overflow-y: auto; 
 }
 
 .corrida-box {
@@ -40,7 +40,7 @@
 }
 
 .informacoes-corrida {
-    flex: 1; /* Permite que as informações ocupem o espaço restante */
+    flex: 1;
 }
 
 .informacoes-corrida h2 {

@@ -1,6 +1,5 @@
 import React from 'react';
-import './Live.css'; // Estilos podem ser adaptados no CSS
-
+import './Live.css'; 
 
 const Live = () => {
   return (
@@ -14,7 +13,7 @@ const Live = () => {
         <div className="chat-section">
           <div className="chat-placeholder"></div>
           <div className="chat-footer">
-            <input type="text" placeholder="Envie umamensagem" className="message-input" />
+            <input type="text" placeholder="Envie uma mensagem" className="message-input" />
             <div className="viewer-count">👥 10 mil</div>
           </div>
         </div>
