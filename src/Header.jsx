@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   const handleLiveClick = () => {
-    navigate('/');
+    navigate('/'); 
   };
 
   const handleComunidadeClick = () => {
@@ -19,7 +19,13 @@ const Header = () => {
 
   return (
     <header className="header">
-      <img src="../public/imagens/logo-Branco.png" alt="Logo" className="Logo" />
+      <img 
+        src="../public/imagens/logo-Branco.png" 
+        alt="Logo" 
+        className="Logo" 
+        onClick={handleLiveClick} 
+        style={{ cursor: 'pointer' }} 
+      />
       <nav className="navbar">
         <a onClick={handleLiveClick} style={{ cursor: 'pointer' }}>Ao Vivo</a>
         <a onClick={handleCorridasClick} style={{ cursor: 'pointer' }}>+Corridas</a>
