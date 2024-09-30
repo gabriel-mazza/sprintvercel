@@ -13,7 +13,6 @@ const Comunidade = () => {
   const [mensagens, setMensagens] = useState({});
   const [novaMensagem, setNovaMensagem] = useState("");
 
-  
   useEffect(() => {
     setMensagens(mensagensData); 
   }, []);
@@ -30,17 +29,13 @@ const Comunidade = () => {
     if (novaMensagem.trim() !== "") {
       const novaMsg = { remetente: 'Você', conteudo: novaMensagem };
 
-     
       const mensagensAtualizadas = {
         ...mensagens,
         [grupoSelecionado]: [...(mensagens[grupoSelecionado] || []), novaMsg]
       };
       setMensagens(mensagensAtualizadas);
 
-      
       setNovaMensagem("");
-
-    
     }
   };
 
@@ -55,7 +50,7 @@ const Comunidade = () => {
       </div>
       <div className="conversa">
         {grupoSelecionado ? (
-          <div>
+          <>
             <div className="conversa-header">
               <h3>Grupo {gruposExemplo.find(grupo => grupo.id === grupoSelecionado)?.nome}</h3>
             </div>
@@ -75,7 +70,7 @@ const Comunidade = () => {
               />
               <button onClick={handleEnviarMensagem}>Enviar</button>
             </div>
-          </div>
+          </>
         ) : (
           <p>Selecione um grupo para ver as mensagens.</p>
         )}

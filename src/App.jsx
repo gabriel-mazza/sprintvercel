@@ -5,7 +5,7 @@ import Header from './Header';
 import Live from './Live';
 import Corridas from './Corridas';
 import VideoPlayer from './VideoPlayer';
-import Comunidade from './Comunidade'; // Importando a aba de Comunidade
+import Comunidade from './Comunidade';
 import './App.css';
 import './index.css';
 
@@ -51,7 +51,7 @@ const App = () => {
               } 
             />
             <Route path="/corrida/:id" element={<VideoPlayer />} />
-            <Route path="/comunidade" element={<Comunidade />} /> {/* Rota para Comunidade */}
+            <Route path="/comunidade" element={<Comunidade />} /> {}
           </Routes>
         </>
       ) : (

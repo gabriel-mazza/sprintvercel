@@ -41,7 +41,7 @@ html, body {
     display: flex;
     flex-direction: column;
     background-color: #f0f0f0;
-    height: calc(100vh - 60px); 
+    height: 100vh; 
 }
 
 .conversa-header {
@@ -57,8 +57,7 @@ html, body {
     flex: 1;
     padding: 10px;
     overflow-y: auto; 
-    margin-bottom: 0; 
-    max-height: calc(100% - 120px); 
+    margin-bottom: 60px; 
 }
 
 .mensagem {
@@ -73,7 +72,6 @@ html, body {
     width: 100%;  
     box-sizing: border-box; 
 }
-
 
 .input-container {
     position: fixed; 
