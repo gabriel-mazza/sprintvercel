@@ -6,6 +6,8 @@ import Live from './Live';
 import Corridas from './Corridas';
 import VideoPlayer from './VideoPlayer';
 import Comunidade from './Comunidade';
+import Estatisticas from './Estatisticas'; 
+import Inscricao from './Inscricao'; 
 import './App.css';
 import './index.css';
 
@@ -51,7 +53,9 @@ const App = () => {
               } 
             />
             <Route path="/corrida/:id" element={<VideoPlayer />} />
-            <Route path="/comunidade" element={<Comunidade />} /> {}
+            <Route path="/comunidade" element={<Comunidade />} />
+            <Route path="/estatisticas" element={<Estatisticas />} />
+            <Route path="/inscricao" element={<Inscricao />} /> {}
           </Routes>
         </>
       ) : (

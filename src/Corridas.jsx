@@ -27,7 +27,7 @@ const PaginaCorridas = ({ corridas, onProximaPagina }) => {
             <div className="navegacao-pagina">
                 <button onClick={onProximaPagina}>Próxima Página</button>
                 <div className="paginacao-info">
-                    Página <span>1</span> de 10
+                    Página <span>1</span> de 1
                 </div>
             </div>
         </div>

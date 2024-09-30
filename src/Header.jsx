@@ -17,6 +17,14 @@ const Header = () => {
     navigate('/comunidade');
   };
 
+  const handleEstatisticasClick = () => {
+    navigate('/estatisticas');
+  };
+
+  const handleInscricaoClick = () => {
+    navigate('/inscricao'); // Redireciona para a página de inscrição
+  };
+
   return (
     <header className="header">
       <img 
@@ -30,12 +38,14 @@ const Header = () => {
         <a onClick={handleLiveClick} style={{ cursor: 'pointer' }}>Ao Vivo</a>
         <a onClick={handleCorridasClick} style={{ cursor: 'pointer' }}>+Corridas</a>
         <a onClick={handleComunidadeClick} style={{ cursor: 'pointer' }}>Comunidade</a>
-        <a href="#statistics">Estatísticas</a>
-        <a href="#more">Mais</a>
+        <a onClick={handleEstatisticasClick} style={{ cursor: 'pointer' }}>Estatísticas</a>
       </nav>
-      <button className="subscribe-button">+ Inscrever-se</button>
+      <button className="subscribe-button" onClick={handleInscricaoClick}>
+        + Inscrever-se
+      </button>
     </header>
   );
 };
 
 export default Header;
+  

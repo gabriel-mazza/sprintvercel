@@ -1,0 +1,47 @@
+{
+    "pilotos": [
+      { "nome": "P. Wehrlein", "equipe": "Porsche Team", "pontos": 198, "vitorias": 7 },
+      { "nome": "M. Evans", "equipe": "Jaguar Racing", "pontos": 192, "vitorias": 6 },
+      { "nome": "N. Cassidy", "equipe": "Jaguar Racing", "pontos": 176, "vitorias": 2 },
+      { "nome": "O. Rowland", "equipe": "Nissan e.dams", "pontos": 156, "vitorias": 1 },
+      { "nome": "J. Vergne", "equipe": "DS Penske", "pontos": 139, "vitorias": 1 },
+      { "nome": "A. Felix da Costa", "equipe": "Porsche Team", "pontos": 134, "vitorias": 1 },
+      { "nome": "J. Dennis", "equipe": "Andretti Autosport", "pontos": 122, "vitorias": 1 },
+      { "nome": "M. Gunther", "equipe": "Maserati Racing", "pontos": 73, "vitorias": 1 },
+      { "nome": "R. Frijns", "equipe": "DS Virgin Racing", "pontos": 66, "vitorias": 0 },
+      { "nome": "S. Vandoorne", "equipe": "DS Penske", "pontos": 61, "vitorias": 0 },
+      { "nome": "S. Buemi", "equipe": "DS Virgin Racing", "pontos": 53, "vitorias": 0 },
+      { "nome": "N. Müller", "equipe": "Abt Cupra", "pontos": 52, "vitorias": 0 },
+      { "nome": "J. Hughes", "equipe": "McLaren", "pontos": 48, "vitorias": 0 },
+      { "nome": "N. Nato", "equipe": "Andretti Autosport", "pontos": 48, "vitorias": 0 },
+      { "nome": "E. Mortara", "equipe": "Mahindra Racing", "pontos": 47, "vitorias": 0 },
+      { "nome": "S. Fenestraz", "equipe": "Nissan e.dams", "pontos": 29, "vitorias": 0 },
+      { "nome": "N. de Vries", "equipe": "Mahindra Racing", "pontos": 26, "vitorias": 0 },
+      { "nome": "D. Ticktum", "equipe": "NIO Formula E Team", "pontos": 18, "vitorias": 0 },
+      { "nome": "S. Camara", "equipe": "NIO Formula E Team", "pontos": 12, "vitorias": 0 },
+      { "nome": "J. Daruvala", "equipe": "Maserati Racing", "pontos": 11, "vitorias": 0 },
+      { "nome": "T. Barnard", "equipe": "McLaren", "pontos": 8, "vitorias": 0 },
+      { "nome": "L. di Grassi", "equipe": "Abt Cupra", "pontos": 5, "vitorias": 0 },
+      { "nome": "J. Eriksson", "equipe": "Jaguar Racing", "pontos": 4, "vitorias": 0 },
+      { "nome": "K. van der Linde", "equipe": "Akka ASP", "pontos": 2, "vitorias": 0 },
+      { "nome": "J. King", "equipe": "Mahindra Racing", "pontos": 0, "vitorias": 0 },
+      { "nome": "P. Aron", "equipe": "Hitech Pulse-Eight", "pontos": 0, "vitorias": 0 },
+      { "nome": "C. Collet", "equipe": "Nissan e.dams", "pontos": 0, "vitorias": 0 },
+      { "nome": "S. Bird", "equipe": "McLaren", "pontos": 0, "vitorias": 0 }
+
+    ],
+    "equipes": [
+      { "nome": "Jaguar Racing", "pontos": 368, "vitorias": 12 },
+      { "nome": "Porsche Team", "pontos": 332, "vitorias": 10 },
+      { "nome": "DS Penske", "pontos": 200, "vitorias": 3 },
+      { "nome": "Nissan e.dams", "pontos": 182, "vitorias": 1 },
+      { "nome": "Andretti Formula E", "pontos": 169, "vitorias": 1 },
+      { "nome": "Virgin Racing", "pontos": 121, "vitorias": 1 },
+      { "nome": "McLaren", "pontos": 101, "vitorias": 1 },
+      { "nome": "Maserati Racing", "pontos": 81, "vitorias": 1 },
+      { "nome": "Abt Cupra", "pontos": 56, "vitorias": 1 },
+      { "nome": "Mahindra Racing", "pontos": 47, "vitorias": 1 },
+      { "nome": "ERT Formula E Team", "pontos": 23, "vitorias": 1 }
+    ]
+  }
+  
