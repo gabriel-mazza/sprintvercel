@@ -22,7 +22,11 @@ const Header = () => {
   };
 
   const handleInscricaoClick = () => {
-    navigate('/inscricao'); // Redireciona para a página de inscrição
+    navigate('/inscricao'); 
+  };
+
+  const handleLojasClick = () => {
+    navigate('/loja'); 
   };
 
   return (
@@ -39,6 +43,7 @@ const Header = () => {
         <a onClick={handleCorridasClick} style={{ cursor: 'pointer' }}>+Corridas</a>
         <a onClick={handleComunidadeClick} style={{ cursor: 'pointer' }}>Comunidade</a>
         <a onClick={handleEstatisticasClick} style={{ cursor: 'pointer' }}>Estatísticas</a>
+        <a onClick={handleLojasClick} style={{ cursor: 'pointer' }}>Loja</a> {}
       </nav>
       <button className="subscribe-button" onClick={handleInscricaoClick}>
         + Inscrever-se
@@ -48,4 +53,3 @@ const Header = () => {
 };
 
 export default Header;
-  
